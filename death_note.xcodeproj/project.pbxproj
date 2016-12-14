@@ -14,6 +14,7 @@
 		AC87BCD41E00A40100AA19A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC87BCD21E00A40100AA19A1 /* LaunchScreen.storyboard */; };
 		AC87BCDF1E00A40100AA19A1 /* death_noteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC87BCDE1E00A40100AA19A1 /* death_noteTests.swift */; };
 		AC87BCEA1E00A40100AA19A1 /* death_noteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC87BCE91E00A40100AA19A1 /* death_noteUITests.swift */; };
+		ACD83FB31E01A412009D19DE /* DeathNoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD83FB21E01A412009D19DE /* DeathNoteTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		AC87BCE51E00A40100AA19A1 /* death_noteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = death_noteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC87BCE91E00A40100AA19A1 /* death_noteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = death_noteUITests.swift; sourceTree = "<group>"; };
 		AC87BCEB1E00A40100AA19A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACD83FB21E01A412009D19DE /* DeathNoteTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeathNoteTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				AC87BCD01E00A40100AA19A1 /* Assets.xcassets */,
 				AC87BCD21E00A40100AA19A1 /* LaunchScreen.storyboard */,
 				AC87BCD51E00A40100AA19A1 /* Info.plist */,
+				ACD83FB21E01A412009D19DE /* DeathNoteTableViewCell.swift */,
 			);
 			path = death_note;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC87BCCC1E00A40100AA19A1 /* ViewController.swift in Sources */,
+				ACD83FB31E01A412009D19DE /* DeathNoteTableViewCell.swift in Sources */,
 				AC87BCCA1E00A40100AA19A1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +509,7 @@
 				AC87BCF01E00A40100AA19A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC87BCF11E00A40100AA19A1 /* Build configuration list for PBXNativeTarget "death_noteTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				AC87BCF31E00A40100AA19A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC87BCF41E00A40100AA19A1 /* Build configuration list for PBXNativeTarget "death_noteUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				AC87BCF61E00A40100AA19A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
