@@ -25,7 +25,7 @@
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="66" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="AK4-vZ-0nP">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="623"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Victim" rowHeight="115" id="fAB-xu-Soj" customClass="DeathNoteTableViewCell" customModule="death_note" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="115"/>
@@ -34,6 +34,9 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="114"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="papier-jaunie" translatesAutoresizingMaskIntoConstraints="NO" id="AXA-ya-WVU">
+                                                    <rect key="frame" x="8" y="8" width="359" height="98.5"/>
+                                                </imageView>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="YU1-jl-olw">
                                                     <rect key="frame" x="8" y="8" width="359" height="98.5"/>
                                                     <subviews>
@@ -66,13 +69,19 @@
                                                     </constraints>
                                                 </stackView>
                                             </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <constraints>
                                                 <constraint firstItem="YU1-jl-olw" firstAttribute="trailing" secondItem="nce-29-sl7" secondAttribute="trailingMargin" id="2Ma-lH-6ie"/>
+                                                <constraint firstItem="AXA-ya-WVU" firstAttribute="top" secondItem="nce-29-sl7" secondAttribute="topMargin" id="69Z-nZ-cw8"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="YU1-jl-olw" secondAttribute="bottom" id="9i4-TM-uLk"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="AXA-ya-WVU" secondAttribute="trailing" id="ALw-Ci-uHA"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="AXA-ya-WVU" secondAttribute="bottom" id="Oic-x2-zhp"/>
                                                 <constraint firstItem="YU1-jl-olw" firstAttribute="leading" secondItem="nce-29-sl7" secondAttribute="leadingMargin" id="WeR-pd-BOr"/>
                                                 <constraint firstItem="YU1-jl-olw" firstAttribute="top" secondItem="nce-29-sl7" secondAttribute="topMargin" id="hPs-4i-MAv"/>
+                                                <constraint firstAttribute="leadingMargin" secondItem="AXA-ya-WVU" secondAttribute="leading" id="vJh-Qr-8tK"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         <inset key="separatorInset" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <connections>
                                             <outlet property="Circonstance" destination="EfX-YZ-846" id="gSc-H9-noL"/>
@@ -87,7 +96,7 @@
                                 </connections>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="AK4-vZ-0nP" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="4jp-KF-8BK"/>
                             <constraint firstItem="AK4-vZ-0nP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="8tp-6U-vtl"/>
@@ -172,12 +181,17 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" toolbarHidden="NO" id="VUe-si-twc" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="GQG-mM-KO4">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" barStyle="black" id="GQG-mM-KO4">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" red="0.99502300126903553" green="0.99502300126903553" blue="0.99502300126903553" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
-                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="9ny-GZ-qak">
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" barStyle="black" id="9ny-GZ-qak">
                         <rect key="frame" x="0.0" y="623" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </toolbar>
@@ -190,4 +204,7 @@
             <point key="canvasLocation" x="-79.200000000000003" y="164.16791604197903"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="papier-jaunie" width="501" height="800"/>
+    </resources>
 </document>
