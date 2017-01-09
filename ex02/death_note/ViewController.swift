@@ -36,7 +36,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         cell.Nom.text = Nom[indexPath.row]
         cell.DateDeces.text = Date[indexPath.row]
         cell.Circonstance.text = Circonstance[indexPath.row]
-    
+        
         return cell
      }
 }
