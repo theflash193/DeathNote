@@ -31,7 +31,7 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="115"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fAB-xu-Soj" id="nce-29-sl7">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="114"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="115"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="papier-jaunie" translatesAutoresizingMaskIntoConstraints="NO" id="AXA-ya-WVU">
@@ -135,24 +135,24 @@
                                 <rect key="frame" x="-4" y="64" width="383" height="603"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="fBE-u1-1ks">
-                                <rect key="frame" x="27" y="72" width="320" height="521"/>
+                                <rect key="frame" x="27" y="94" width="320" height="479"/>
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="name" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" background="papier-jaunie" translatesAutoresizingMaskIntoConstraints="NO" id="LxZ-Jt-df5">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="25"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="18"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocorrectionType="no"/>
                                     </textField>
                                     <datePicker contentMode="scaleToFill" verticalHuggingPriority="10" verticalCompressionResistancePriority="10" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="dvd-BC-6xv">
-                                        <rect key="frame" x="0.0" y="35" width="320" height="126"/>
+                                        <rect key="frame" x="0.0" y="28" width="320" height="91"/>
                                         <date key="date" timeIntervalSinceReferenceDate="505668201.39133102">
                                             <!--2017-01-09 15:23:21 +0000-->
                                         </date>
                                     </datePicker>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="wfG-e3-Ril">
-                                        <rect key="frame" x="0.0" y="171" width="320" height="350"/>
+                                        <rect key="frame" x="0.0" y="129" width="320" height="350"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
-                                        <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -169,15 +169,13 @@
                             <constraint firstAttribute="trailingMargin" secondItem="pdo-62-2Yd" secondAttribute="trailing" constant="-20" id="HVa-rb-e4z"/>
                             <constraint firstItem="pdo-62-2Yd" firstAttribute="leading" secondItem="voy-6a-YJ1" secondAttribute="leadingMargin" constant="-20" id="QQq-Cw-Ptm"/>
                             <constraint firstItem="fBE-u1-1ks" firstAttribute="leading" secondItem="voy-6a-YJ1" secondAttribute="leadingMargin" constant="11" id="SzS-Sk-XiC"/>
-                            <constraint firstItem="fBE-u1-1ks" firstAttribute="top" secondItem="paR-v6-g4U" secondAttribute="bottom" constant="8" id="hvH-IV-tIe"/>
+                            <constraint firstItem="fBE-u1-1ks" firstAttribute="top" secondItem="paR-v6-g4U" secondAttribute="bottom" constant="30" id="hvH-IV-tIe"/>
                             <constraint firstItem="Sar-zt-9GY" firstAttribute="top" secondItem="pdo-62-2Yd" secondAttribute="bottom" constant="-44" id="iO0-SR-wwW"/>
                             <constraint firstItem="fBE-u1-1ks" firstAttribute="centerX" secondItem="voy-6a-YJ1" secondAttribute="centerX" id="yiP-sr-rdZ"/>
-                            <constraint firstItem="Sar-zt-9GY" firstAttribute="top" secondItem="fBE-u1-1ks" secondAttribute="bottom" constant="30" id="zI5-Gs-otC"/>
+                            <constraint firstItem="Sar-zt-9GY" firstAttribute="top" secondItem="fBE-u1-1ks" secondAttribute="bottom" constant="50" id="zI5-Gs-otC"/>
                         </constraints>
                     </view>
-                    <toolbarItems>
-                        <barButtonItem title="Item" id="X55-si-UhR"/>
-                    </toolbarItems>
+                    <toolbarItems/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jjg-qK-oXO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -188,7 +186,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" toolbarHidden="NO" id="VUe-si-twc" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" barStyle="black" id="GQG-mM-KO4">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="GQG-mM-KO4">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
