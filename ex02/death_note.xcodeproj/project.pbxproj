@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC2F92981E2D432300B7B503 /* VictimController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2F92971E2D432300B7B503 /* VictimController.swift */; };
 		AC87BCCA1E00A40100AA19A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC87BCC91E00A40100AA19A1 /* AppDelegate.swift */; };
 		AC87BCCC1E00A40100AA19A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC87BCCB1E00A40100AA19A1 /* ViewController.swift */; };
 		AC87BCCF1E00A40100AA19A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC87BCCD1E00A40100AA19A1 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC2F92971E2D432300B7B503 /* VictimController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VictimController.swift; sourceTree = "<group>"; };
 		AC87BCC61E00A40100AA19A1 /* death_note.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = death_note.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC87BCC91E00A40100AA19A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC87BCCB1E00A40100AA19A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				AC87BCD21E00A40100AA19A1 /* LaunchScreen.storyboard */,
 				AC87BCD51E00A40100AA19A1 /* Info.plist */,
 				ACD83FB21E01A412009D19DE /* DeathNoteTableViewCell.swift */,
+				AC2F92971E2D432300B7B503 /* VictimController.swift */,
 			);
 			path = death_note;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC87BCCC1E00A40100AA19A1 /* ViewController.swift in Sources */,
+				AC2F92981E2D432300B7B503 /* VictimController.swift in Sources */,
 				ACD83FB31E01A412009D19DE /* DeathNoteTableViewCell.swift in Sources */,
 				AC87BCCA1E00A40100AA19A1 /* AppDelegate.swift in Sources */,
 			);

@@ -122,7 +122,7 @@
         <!--Victime-->
         <scene sceneID="RIC-zs-sIX">
             <objects>
-                <viewController title="Victime" id="aYU-l0-6Qb" sceneMemberID="viewController">
+                <viewController title="Victime" id="aYU-l0-6Qb" customClass="VictimController" customModule="death_note" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="paR-v6-g4U"/>
                         <viewControllerLayoutGuide type="bottom" id="Sar-zt-9GY"/>
