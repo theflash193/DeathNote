@@ -10,6 +10,11 @@ import UIKit
 
 class VictimController: UIViewController {
 
+    @IBOutlet weak var Nom: UITextField!
+    @IBOutlet weak var Date: UIDatePicker!
+    @IBOutlet weak var Description: UITextView!    
+    
+
     override func viewDidLoad() {
         super.viewDidLoad()
 

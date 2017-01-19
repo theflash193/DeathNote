@@ -197,6 +197,11 @@
                     <navigationItem key="navigationItem" title="Victim" id="FB9-1A-QdJ">
                         <barButtonItem key="rightBarButtonItem" systemItem="done" id="a3p-IE-ax5"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="Date" destination="dvd-BC-6xv" id="SHh-vP-duy"/>
+                        <outlet property="Description" destination="wfG-e3-Ril" id="R9m-Wz-es8"/>
+                        <outlet property="Nom" destination="LxZ-Jt-df5" id="LIS-oJ-c8I"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jjg-qK-oXO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
