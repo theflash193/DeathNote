@@ -12,7 +12,7 @@ class VictimController: UIViewController {
 
     @IBOutlet weak var Nom: UITextField!
     @IBOutlet weak var Date: UIDatePicker!
-    @IBOutlet weak var Description: UITextView!    
+    @IBOutlet weak var Description: UITextView!
     
 
     override func viewDidLoad() {
@@ -27,6 +27,10 @@ class VictimController: UIViewController {
     }
     
 
+    @IBAction func ToucheDone(_ sender: UIBarButtonItem) {
+        print("nom [\(Nom.text)] date [\(Date.date)] description [\(Description.text)]")
+    }
+    
     /*
     // MARK: - Navigation
 

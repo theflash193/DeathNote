@@ -195,7 +195,11 @@
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Victim" id="FB9-1A-QdJ">
-                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="a3p-IE-ax5"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="a3p-IE-ax5">
+                            <connections>
+                                <action selector="ToucheDone:" destination="aYU-l0-6Qb" id="9cb-cz-1sY"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="Date" destination="dvd-BC-6xv" id="SHh-vP-duy"/>
