@@ -10,6 +10,8 @@ import UIKit
 
 class VictimController: UIViewController {
 
+    var NouvelleVictim = Victim()
+    
     @IBOutlet weak var Nom: UITextField!
     @IBOutlet weak var Date: UIDatePicker!
     @IBOutlet weak var Description: UITextView!
@@ -27,8 +29,13 @@ class VictimController: UIViewController {
     }
     
 
-    @IBAction func ToucheDone(_ sender: UIBarButtonItem) {
+    @IBAction func ToucheDone(_ sender: any) {
         print("nom [\(Nom.text)] date [\(Date.date)] description [\(Description.text)]")
+        
+        Victim.nom = Nom.text
+        Victim.date = Date.date
+        Victim.description = Description.text
+        
     }
     
     /*
@@ -40,5 +47,6 @@ class VictimController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
 
 }

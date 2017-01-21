@@ -198,6 +198,7 @@
                         <barButtonItem key="rightBarButtonItem" systemItem="done" id="a3p-IE-ax5">
                             <connections>
                                 <action selector="ToucheDone:" destination="aYU-l0-6Qb" id="9cb-cz-1sY"/>
+                                <segue destination="JWv-wK-V6k" kind="unwind" unwindAction="myUnwindActionWithSegue:" id="uau-2c-D7V"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -208,14 +209,15 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jjg-qK-oXO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="JWv-wK-V6k" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1677.5999999999999" y="163.26836581709148"/>
+            <point key="canvasLocation" x="1678" y="108"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="CkH-RH-iBb">
             <objects>
                 <navigationController id="bWL-CF-Djw" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="BCR-uF-w26">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="BCR-uF-w26">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -232,7 +234,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" toolbarHidden="NO" id="VUe-si-twc" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" barStyle="black" id="GQG-mM-KO4">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="GQG-mM-KO4">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -259,6 +261,6 @@
         <image name="papier-jaunie" width="501" height="800"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="xBO-kj-1KO"/>
+        <segue reference="ueQ-pc-8Gv"/>
     </inferredMetricsTieBreakers>
 </document>
