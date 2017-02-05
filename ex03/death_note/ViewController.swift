@@ -37,7 +37,14 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         return cell
      }
     
-    @IBAction func myUnwindAction(segue: UIStoryboardSegue) {
+    @IBAction func VictimSegue(segue: UIStoryboardSegue) {
+        if segue.identifier == "VictimSegue" {
+            if let src = segue.source as? VictimController {
+                Listes_victimes.append(src.NewVictim)
+                TableView.reloadData()
+                
+            }
+        }
     }
 }
 

@@ -35,18 +35,22 @@ class VictimController: UIViewController {
         Victim.nom = Nom.text
         Victim.date = Date.date
         Victim.description = Description.text
-        
+        if Victim.nom != "" {
+            performSegue(segue : "VictimSegue", sender: self)
+            
+            
+        }
     }
     
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    override func Prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
     }
-    */
+    
     
 
 }
